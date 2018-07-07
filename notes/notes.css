@@ -1,0 +1,74 @@
+body
+{	
+	font-family: "Comic sans MS";
+	font-size: 16px;
+	color:white;
+	background:url("fond.jpg") no-repeat ;
+	background-size:cover;	
+}
+
+button
+ {
+ background-color: #77FF94;
+ color:black;
+ width:auto;
+ border:1px solid black;
+ border-radius: 5px;
+ margin-left: 50px;
+}
+
+input
+{
+	width: 75px;
+	margin: 10px;
+}
+
+input[id^="txtNote"]
+{
+	width:100px;
+	margin: 10px;
+}
+
+td
+{
+	margin:20px;
+}
+
+label
+{
+	color:white;
+	margin:20px;
+	padding:10px;
+}
+
+#divNotes
+{
+	width: 465px;
+	height: 205px;
+	font-family: "Gaegu-Regular";
+	font-size: 16px;
+	background-color: #1E3F20;
+	padding:10px;
+}
+
+fieldset
+{
+	border-radius: 10px;
+	border-color: #77FF94;
+	font-family: "Gaegu-Regular";
+	font-size: 20px;
+	width:900px;
+}
+
+#copyright
+{
+	font-family: "Gaegu-Regular";
+	font-size: 16px;
+	color: #77FF94;
+}
+
+#divIntro
+{
+	font-style: italic;
+}
+

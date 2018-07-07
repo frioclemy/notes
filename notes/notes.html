@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Notes</title>
+	<script src="notes.js"></script>
+	<link href="notes.css" rel="stylesheet" />
+</head>
+<body>
+<fieldset>
+	<legend>Introduction</legend>
+	<div id="divIntro">Cet outil permet de saisir jusqu'à 10 notes puis de donner la note minimale, maximale ainsi que la moyenne.</div>
+</fieldset>
+<fieldset>
+	<legend>Saisie des notes</legend>
+<form>
+	<label for = "txtNbNotes">Nombre de notes</label>
+	<input type="number" id="txtNbNotes" name="txtNbNotes" min="1" max="10" step="1" value="1" />
+	<p/>
+	<div id="divNotes"></div>
+	<p/>
+	<button type="button" id ="cmdCalcul">CALCUL</button>
+	<button type="button" id ="cmdReinit">REINITIALISER</button>
+	<p/>
+	<div id="divCalc" visibility="hidden">
+	<table>
+		<tr>
+			<td><label for = "txtNoteMini">Note mini</label></td>
+			<td><input type="text" id="txtNoteMini" name="txtNoteMini"/></td>
+		</tr>
+		<tr>
+			<td><label for = "txtNoteMaxi">Note maxi</label></td>
+			<td><input type="text" id="txtNoteMaxi" name="txtNoteMaxi"/></td>
+		</tr>
+		<tr>
+			<td><label for = "txtMoyenne">Moyenne</label></td>
+			<td><input type="text" id="txtMoyenne" name="txtMoyenne" /></td>
+		</tr>
+	</table>
+	</div>
+</form>
+</fieldset>
+<p/>
+<div id="copyright">&copy; 2018 Fr&eacute;d&eacute;ric PARENT-VAILLANT<div>
+
+</body>
+</html>
